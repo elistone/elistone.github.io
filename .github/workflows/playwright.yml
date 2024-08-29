@@ -20,6 +20,8 @@ jobs:
           run_install: false
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
+      - name: Build the project
+        run: pnpm run build
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
       - name: Run Playwright tests
