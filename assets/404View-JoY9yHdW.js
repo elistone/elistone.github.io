@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as s}from"./index-D_Q0scvz.js";const c={},n={class:"about"},_=s("h1",null,"404 | Page not found",-1),a=[_];function r(d,i){return o(),t("div",n,a)}const l=e(c,[["render",r]]);export{l as default};
