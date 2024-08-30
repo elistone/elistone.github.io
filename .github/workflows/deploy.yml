@@ -1,4 +1,4 @@
-name: Deploy - GitHub Pages
+name: "Deploy - GitHub Pages"
 on:
   push:
     branches:
@@ -35,3 +35,5 @@ jobs:
           publish_dir: ./dist
           tag_name: ${{ steps.prepare_tag.outputs.DEPLOY_TAG_NAME }}
           tag_message: 'Deployment ${{ github.ref_name }}'
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
